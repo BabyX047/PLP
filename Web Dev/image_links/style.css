@@ -1,0 +1,56 @@
+span {
+    color: crimson;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: bisque;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding: 5px;
+}
+nav {
+    padding: 10px;
+    background-color: rgb(251, 237, 220);
+}
+main {
+    background-color: beige;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+p {
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 1200px; /* Limits the maximum width of the grid container */
+    margin: 0 auto; /* Centers the grid container */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    max-width: 300px; /* Limits the maximum width of the grid container */
+    margin: 0 auto; /* Centers the grid container */
+}
