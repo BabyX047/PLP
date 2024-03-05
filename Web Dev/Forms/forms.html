@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <form>
+        <!-- <form action="processing.php" method="post" enctype="multipart/form-data"> -->
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" value="" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="example@mail.com" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="file">Upload file:</label>
+        <input type="file" name="file" id="file" accept="image/*">
+        <br>
+        <input type="checkbox" id="" value="I am a student" required>
+        <label for="student">I am a student.</label>
+        <br>
+        <input type="radio" value="male" id="gender" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" value="female" id="gender" name="gender">
+        <label for="female">Female</label>
+        <br>
+        <label for="car">Select a car model:</label>
+        <select name="car" id="car">
+            <option value=""></option>
+            <option value="Premio">Premio</option>
+            <option value="Starlet">Starlet</option>
+            <option value="Mercedes">Mercedes</option>
+        </select>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10">
+            Add bio
+        </textarea>
+        <br>
+        <input type="submit" value="Save details">
+    </form>
+</body>
+</html>
