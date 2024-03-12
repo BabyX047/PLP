@@ -1,0 +1,91 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* white background */
+    color: #000; /* Black text */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+.header {
+    background-color: #faba45; /* Low-contrast orange */
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: #fff; /* White text */
+}
+
+span {
+    color: black;
+}
+
+/* Introduction Section */
+.introduction {
+    background-color: #f2f2f2; /* low-contrast background */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.introduction p {
+    margin-bottom: 20px;
+}
+
+/* Skills Display */
+.skills {
+    background-color: #f2f2f2; /* low-contrast background */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    border: 1px solid #000; /* Black border */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact Information */
+.contact {
+    background-color: #faba45; /* Low-contrast orange */
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.contact p {
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header, .introduction, .skills, .contact {
+        padding: 10px;
+    }
+}
